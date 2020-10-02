@@ -23,7 +23,8 @@ You can access the website1 at http://localhost/webpage1 and website2 at http://
 1. Clone this repository by using `git clone https://github.com/WillySeahh/otot-task-a`.
 2. Ensure you have Docker running on your computer. Else kindly downlaod it from here. https://hub.docker.com  
 3. Using cmd/Terminal navigate to the project `otot-task-a-main`. 
-4. Type in`cd webpage1` and run `docker-compose up --build -d` to build the image for webpage1 and run the docker container. 
+4. Type in`cd webpage1` and run `docker-compose up --build -d` to build the image for webpage1 and run the docker container. You should see something like this:
+![Image 1](https://github.com/WillySeahh/otot-task-a/blob/main/images/imagesInDockerDashboard.png) 
 5. Type in `cd ../webpage2` and run `docker-compose up --build -d` to build the image for webpage2 and run the docker container.
 6. Type in `cd ../reverseProxy` and run `docker-compose up --build -d` to build the image for reverse proxy server and run the docker container.
 7. Start Chrome browser or Firefox and type in http://localhost/webpage1 to access webpage1 and http://localhost/wepage2 to access webpage2. 
