@@ -26,7 +26,11 @@ You can access the website1 at http://localhost/webpage1 and website2 at http://
 4. Type in`cd webpage1` and run `docker-compose up --build -d` to build the image for webpage1 and run the docker container. You should see something like this:
 ![Image 1](https://github.com/WillySeahh/otot-task-a/blob/main/images/imagesInDockerDashboard.png) 
 5. Type in `cd ../webpage2` and run `docker-compose up --build -d` to build the image for webpage2 and run the docker container.
+![Image 1](https://github.com/WillySeahh/otot-task-a/blob/main/images/imagesInDockerDashboard.png) 
 6. Type in `cd ../reverseProxy` and run `docker-compose up --build -d` to build the image for reverse proxy server and run the docker container.
+![Image 1](https://github.com/WillySeahh/otot-task-a/blob/main/images/imagesInDockerDashboard.png) 
 7. Start Chrome browser or Firefox and type in http://localhost/webpage1 to access webpage1 and http://localhost/wepage2 to access webpage2. 
+![Image 1](https://github.com/WillySeahh/otot-task-a/blob/main/images/webpage1.png) 
+![Image 1](https://github.com/WillySeahh/otot-task-a/blob/main/images/webpage2.png) 
 Visiting other webpages will return a Error 404 result. 
 8. Stop all running docker container by using `docker stop $(docker ps -q)` on Linux or Git Bash **OR** `docker ps -q | % { docker stop $_ }` on Windows PowerShell.
