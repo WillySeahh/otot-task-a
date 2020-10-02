@@ -1,0 +1,18 @@
+version: '3'
+services:
+  proxy:
+    build: ./
+    networks:
+        - webpage1
+        - webpage2 
+    ports:
+      - "80:80"
+    container_name: reverseproxy 
+
+networks:
+  webpage1:
+    external: 
+      name: webpage1_default
+  webpage2:
+    external: 
+      name: webpage2_default
