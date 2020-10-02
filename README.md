@@ -21,9 +21,11 @@ You can access the website1 at http://localhost/webpage1 and website2 at http://
 # Guide to running task-a
 
 1. Clone this repository by using `git clone https://github.com/WillySeahh/otot-task-a`.
-2. Navigate to the project root directory by using `cd otot-task-a`.
-3. Navigate to the website1 by using `cd webpage1` and run `docker-compose up --build -d` to build the image for website1 and run the docker container.
-4. Navigate to the website2 by using `cd ../webpage2` and run `docker-compose up --build -d` to build the image for website2 and run the docker container.
-5. Navigate to the reverse proxy server by using `cd ../reverseProxy` and run `docker-compose up --build -d` to build the image for reverse proxy server and run the docker container.
-6. Go to browser and enter http://localhost/webpage1 to access webpage1 and http://localhost/wepage2 to access webpage2. If you enter the directory other than these 2 (e.g. http://localhost/webpage3), it will show a 404 error page.
-7. Stop all running docker container by using `docker stop $(docker ps -q)` on Linux or Git Bash **OR** `docker ps -q | % { docker stop $_ }` on Windows PowerShell.
+2. Ensure you have Docker running on your computer. Else kindly downlaod it from here. https://hub.docker.com  
+3. Using cmd/Terminal navigate to the project `otot-task-a-main`. 
+4. Type in`cd webpage1` and run `docker-compose up --build -d` to build the image for webpage1 and run the docker container. 
+5. Type in `cd ../webpage2` and run `docker-compose up --build -d` to build the image for webpage2 and run the docker container.
+6. Type in `cd ../reverseProxy` and run `docker-compose up --build -d` to build the image for reverse proxy server and run the docker container.
+7. Start Chrome browser or Firefox and type in http://localhost/webpage1 to access webpage1 and http://localhost/wepage2 to access webpage2. 
+Visiting other webpages will return a Error 404 result. 
+8. Stop all running docker container by using `docker stop $(docker ps -q)` on Linux or Git Bash **OR** `docker ps -q | % { docker stop $_ }` on Windows PowerShell.
