@@ -1,7 +1,7 @@
 
-Name: Willy Seah Wee Hung
-Matric Number: A0183766N
-Email: E0310561@u.nus.edu
+Name: Willy Seah Wee Hung  
+Matric Number: A0183766N  
+Email: E0310561@u.nus.edu  
 
 OTOT Assignment A
 
@@ -10,15 +10,15 @@ TASK: Deploy a simple web server using Nginx running in a Docker container.
 LEARNING OBJECTIVE: To understand how containerization works and what its advantages are.
 
 MARKING SCHEME:
-● Demonstrate ability to write simple Dockerfile (1 mark)
-● Setup Nginx and run a reverse proxy (1 mark)
-● Demonstrate ability to use Docker Hub registry to keep track of images (1 mark)
+● Demonstrate ability to write simple Dockerfile (1 mark)  
+● Setup Nginx and run a reverse proxy (1 mark)  
+● Demonstrate ability to use Docker Hub registry to keep track of images (1 mark)  
 
 There are total 3 containers running `Nginx`. The 2 websites run in `webpage1` and `webpage2` container. The reverse proxy server run in `reverseproxy` container.
 
 You can access the website1 at http://localhost/website1 and website2 at http://localhost/website2. The default http://localhost or any other directory will result a 404 error page.
 
-# Running the Task A
+# Guide to running task-a
 
 1. Clone this repository by using `git clone https://github.com/WillySeahh/otot-task-a`.
 2. Navigate to the project root directory by using `cd otot-task-a`.
