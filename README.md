@@ -21,7 +21,7 @@ You can access the website1 at http://localhost/webpage1 and website2 at http://
 # Guide to running task-a
 
 1. Clone this repository by using `git clone https://github.com/WillySeahh/otot-task-a`.
-2. Ensure you have Docker running on your computer. Else kindly downlaod it from here. https://hub.docker.com  
+2. Ensure you have Docker running on your computer. Else kindly download it from here. https://hub.docker.com  
 3. Using cmd/Terminal navigate to the project `otot-task-a-main`. 
 4. Type in`cd webpage1` and run `docker-compose up --build -d` to build the image for webpage1 and run the docker container. You should see something like this:
 ![Image 1](https://github.com/WillySeahh/otot-task-a/blob/main/images/imagesInDockerDashboard.png) 
